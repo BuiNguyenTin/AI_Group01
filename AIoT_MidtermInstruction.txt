@@ -1,0 +1,14 @@
+AIoT
+
+- vào example -> audio_provider.cpp -> sửa pin_config (I2S_SCLK) thứ tự 13-13-[-1]-14.
+	Bỏ TX trong I2S_init
+
+micro_model_setting -> sửa kCategoryLabels
+
+Lỗi: tràn buffer
+
+micro_speech
+	tham số 
+	reconige_commands 
+		aver_window_dura - detection - suppression - minimum	-----	1000, 200, 1500, 3
+		
