@@ -1,0 +1,263 @@
+01
+Input
+5 
+0 3 
+0 4 5 0 0 
+4 0 2 5 6
+5 2 0 3 0
+0 5 3 0 1
+0 6 0 1 0
+8 5 3 0 1
+Output
+BFS:
+Path: 0 -> 1 -> 3
+Time: 0.0001696000 seconds
+Memory: 1.484375 KB
+DFS:
+Path: 0 -> 2 -> 3
+Time: 0.0000965000 seconds
+Memory: 0.6904296875 KB
+UCS:
+Path: 0 -> 2 -> 3
+Time: 0.0001538000 seconds
+Memory: 0.8388671875 KB
+DLS:
+Path: 0 -> 1 -> 2 -> 3
+Time: 0.0000621000 seconds
+Memory: 1.25 KB
+IDS:
+Path: 0 -> 1 -> 3
+Time: 0.0000835000 seconds
+Memory: 1.640625 KB
+GBFS:
+Path: 0 -> 2 -> 3
+Time: 0.0000760000 seconds
+Memory: 0.6904296875 KB
+AStar:
+Path: 0 -> 2 -> 3
+Time: 0.0001052000 seconds
+Memory: 0.8779296875 KB
+HC: Path: 0 -> 2 -> 3
+Time: 0.0000486000 seconds
+Memory: 0.7060546875 KB
+
+02
+Input
+5
+0 4
+0 1 2 0 0
+1 0 0 3 0
+2 0 0 1 4
+0 3 1 0 1
+0 0 4 1 0
+7 6 2 1 0
+Output
+BFS:
+Path: 0 -> 2 -> 4
+Time: 0.0003108000 seconds
+Memory: 1.4091796875 KB
+DFS:
+Path: 0 -> 2 -> 4
+Time: 0.0001147000 seconds
+Memory: 0.7138671875 KB
+UCS:
+Path: 0 -> 2 -> 3 -> 4
+Time: 0.0002327000 seconds
+Memory: 0.8076171875 KB
+DLS:
+Path: 0 -> 1 -> 3 -> 2 -> 4
+Time: 0.0001243000 seconds
+Memory: 1.5234375 KB
+IDS:
+Path: 0 -> 2 -> 4
+Time: 0.0001627000 seconds
+Memory: 1.7294921875 KB
+GBFS:
+Path: 0 -> 2 -> 4
+Time: 0.0001240000 seconds
+Memory: 0.6904296875 KB
+AStar:
+Path: 0 -> 2 -> 3 -> 4
+Time: 0.0002281000 seconds
+Memory: 0.9716796875 KB
+HC:
+Path: 0 -> 2 -> 4
+Time: 0.0000817000 seconds
+Memory: 0.7060546875 KB
+
+03
+Input
+4
+1 3
+0 2 0 1
+2 0 3 0
+0 3 0 1
+1 0 1 0
+10 5 2 0
+Output
+BFS:
+Path: 1 -> 0 -> 3
+Time: 0.0001323000 seconds
+Memory: 1.4013671875 KB
+DFS:
+Path: 1 -> 2 -> 3
+Time: 0.0000488000 seconds
+Memory: 0.6904296875 KB
+UCS:
+Path: 1 -> 0 -> 3
+Time: 0.0000772000 seconds
+Memory: 0.7451171875 KB
+DLS:
+Path: 1 -> 0 -> 3
+Time: 0.0000348000 seconds
+Memory: 0.984375 KB
+IDS:
+Path: 1 -> 0 -> 3
+Time: 0.0000532000 seconds
+Memory: 1.640625 KB
+GBFS:
+Path: 1 -> 2 -> 3
+Time: 0.0000509000 seconds
+Memory: 0.6669921875 KB
+AStar:
+Path: 1 -> 2 -> 3
+Time: 0.0000648000 seconds
+Memory: 0.8076171875 KB
+HC:
+Path: 1 -> 2 -> 3
+Time: 0.0000333000 seconds
+Memory: 0.7060546875 KB
+
+04
+Input
+6
+0 5
+0 1 0 0 2 0
+1 0 1 0 0 2
+0 1 0 1 0 0
+0 0 1 0 3 1
+2 0 0 3 0 1
+0 2 0 1 1 0
+6 4 3 2 1 0
+Output
+BFS:
+Path: 0 -> 1 -> 5
+Time: 0.0003055000 seconds
+Memory: 1.609375 KB
+DFS:
+Path: 0 -> 4 -> 5
+Time: 0.0001198000 seconds
+Memory: 0.7138671875 KB
+UCS:
+Path: 0 -> 1 -> 5
+Time: 0.0003044000 seconds
+Memory: 0.8701171875 KB
+DLS:
+Path: 0 -> 1 -> 2 -> 3 -> 4 -> 5
+Time: 0.0001520000 seconds
+Memory: 1.9609375 KB
+IDS:
+Path: 0 -> 1 -> 5
+Time: 0.0001411000 seconds
+Memory: 1.640625 KB
+GBFS:
+Path: 0 -> 4 -> 5
+Time: 0.0001276000 seconds
+Memory: 0.6904296875 KB
+AStar:
+Path: 0 -> 4 -> 5
+Time: 0.0001752000 seconds
+Memory: 0.8779296875 KB
+HC:
+Path: 0 -> 4 -> 5
+Time: 0.0000818000 seconds
+Memory: 0.7060546875 KB
+
+05
+Input
+3
+2 0
+0 2 3
+2 0 1
+3 1 0
+5 3 0
+Output
+BFS:
+Path: 2 -> 0
+Time: 0.0001576000 seconds
+Memory: 1.46875 KB
+DFS:
+Path: 2 -> 0
+Time: 0.0001219000 seconds
+Memory: 0.6669921875 KB
+UCS:
+Path: 2 -> 0
+Time: 0.0001361000 seconds
+Memory: 0.7373046875 KB
+DLS:
+Path: 2 -> 0
+Time: 0.0000522000 seconds
+Memory: 0.7265625 KB
+IDS:
+Path: 2 -> 0
+Time: 0.0000586000 seconds
+Memory: 1.0234375 KB
+GBFS:
+Path: 2 -> 0
+Time: 0.0001099000 seconds
+Memory: 0.6669921875 KB
+AStar:
+Path: 2 -> 0
+Time: 0.0001400000 seconds
+Memory: 0.8076171875 KB
+HC:
+Path: -1
+Time: 0.0000482000 seconds
+Memory: 0.6201171875 KB
+
+06
+Input
+7
+0 6
+0 1 0 0 0 2 0
+1 0 2 0 0 0 3
+0 2 0 2 0 0 0
+0 0 2 0 1 0 0
+0 0 0 1 0 3 2
+2 0 0 0 3 0 1
+0 3 0 0 2 1 0
+10 8 6 4 2 1 0
+Output
+BFS:
+Path: 0 -> 1 -> 6
+Time: 0.0001844000 seconds
+Memory: 1.640625 KB
+DFS:
+Path: 0 -> 5 -> 6
+Time: 0.0000547000 seconds
+Memory: 0.7138671875 KB
+UCS:
+Path: 0 -> 5 -> 6
+Time: 0.0001770000 seconds
+Memory: 0.8544921875 KB
+DLS:
+Path: 0 -> 1 -> 2 -> 3 -> 4 -> 5 -> 6
+Time: 0.0000812000 seconds
+Memory: 2.21875 KB
+IDS:
+Path: 0 -> 1 -> 6
+Time: 0.0000613000 seconds
+Memory: 1.640625 KB
+GBFS:
+Path: 0 -> 5 -> 6
+Time: 0.0000887000 seconds
+Memory: 0.6904296875 KB
+AStar:
+Path: 0 -> 5 -> 6
+Time: 0.0000770000 seconds
+Memory: 0.8779296875 KB
+HC:
+Path: 0 -> 5 -> 6
+Time: 0.0000400000 seconds
+Memory: 0.7060546875 KB
+

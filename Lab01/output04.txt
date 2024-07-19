@@ -1,0 +1,40 @@
+BFS:
+Path: 0 -> 1 -> 5
+Time: 0.0003055000 seconds
+Memory: 1.609375 KB
+
+DFS:
+Path: 0 -> 4 -> 5
+Time: 0.0001198000 seconds
+Memory: 0.7138671875 KB
+
+UCS:
+Path: 0 -> 1 -> 5
+Time: 0.0003044000 seconds
+Memory: 0.8701171875 KB
+
+DLS:
+Path: 0 -> 1 -> 2 -> 3 -> 4 -> 5
+Time: 0.0001520000 seconds
+Memory: 1.9609375 KB
+
+IDS:
+Path: 0 -> 1 -> 5
+Time: 0.0001411000 seconds
+Memory: 1.640625 KB
+
+GBFS:
+Path: 0 -> 4 -> 5
+Time: 0.0001276000 seconds
+Memory: 0.6904296875 KB
+
+AStar:
+Path: 0 -> 4 -> 5
+Time: 0.0001752000 seconds
+Memory: 0.8779296875 KB
+
+HC:
+Path: 0 -> 4 -> 5
+Time: 0.0000818000 seconds
+Memory: 0.7060546875 KB
+
