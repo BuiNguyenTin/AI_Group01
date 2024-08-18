@@ -124,9 +124,10 @@ def fileOut(result, init, folderOut, filePathOut):
 
 filePathIn = input("Input file: ")
 filePathOut = input("Output file: ")
-folderIn = "21127702\Exercise_4\Input"
-folderOut = "21127702\Exercise_4\Output"
+folderIn = "Exercise_4\Input"
+folderOut = "Exercise_4\Output"
 q, k = readFile(os.path.join(folderIn, filePathIn))
 result, init = pl_resolution(k, q)
 
 fileOut(result, init, folderOut, filePathOut)
+
